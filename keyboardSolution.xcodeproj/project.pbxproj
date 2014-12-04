@@ -14,6 +14,7 @@
 		528A53E11A3097E200B1E8C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528A53E01A3097E200B1E8C9 /* Images.xcassets */; };
 		528A53E41A3097E200B1E8C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528A53E21A3097E200B1E8C9 /* LaunchScreen.xib */; };
 		528A53F01A3097E200B1E8C9 /* keyboardSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 528A53EF1A3097E200B1E8C9 /* keyboardSolutionTests.m */; };
+		528A53FB1A30994A00B1E8C9 /* UIViewController+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 528A53FA1A30994A00B1E8C9 /* UIViewController+helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		528A53E91A3097E200B1E8C9 /* keyboardSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keyboardSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528A53EE1A3097E200B1E8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		528A53EF1A3097E200B1E8C9 /* keyboardSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = keyboardSolutionTests.m; sourceTree = "<group>"; };
+		528A53F91A30994A00B1E8C9 /* UIViewController+helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+helper.h"; sourceTree = "<group>"; };
+		528A53FA1A30994A00B1E8C9 /* UIViewController+helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				528A53D81A3097E200B1E8C9 /* AppDelegate.m */,
 				528A53DA1A3097E200B1E8C9 /* ViewController.h */,
 				528A53DB1A3097E200B1E8C9 /* ViewController.m */,
+				528A53F91A30994A00B1E8C9 /* UIViewController+helper.h */,
+				528A53FA1A30994A00B1E8C9 /* UIViewController+helper.m */,
 				528A53DD1A3097E200B1E8C9 /* Main.storyboard */,
 				528A53E01A3097E200B1E8C9 /* Images.xcassets */,
 				528A53E21A3097E200B1E8C9 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528A53FB1A30994A00B1E8C9 /* UIViewController+helper.m in Sources */,
 				528A53DC1A3097E200B1E8C9 /* ViewController.m in Sources */,
 				528A53D91A3097E200B1E8C9 /* AppDelegate.m in Sources */,
 				528A53D61A3097E200B1E8C9 /* main.m in Sources */,

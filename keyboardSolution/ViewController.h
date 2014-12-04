@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIViewController+helper.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<KeyBoardDelegate>
+{
+    IBOutlet UITextField *_textFiled1, *_textField2, *_textField3, *_textField4, *_textField5, *_textField6;
+}
 
 @end
 
